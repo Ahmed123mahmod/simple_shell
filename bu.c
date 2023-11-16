@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _exit - shell exit
+ * _stab - shell exit
  * @inf: struc arg
  * Return: 0 exit status
 */
-int _exit(info_t *inf)
+int _stab(info_t *inf)
 {
 	int exch;
 

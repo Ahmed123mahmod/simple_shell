@@ -49,7 +49,7 @@ int find_built(info_t *inf)
 {
 	int j, built_in = -1;
 	built_table builtintb1[] = {
-		{"exit", _exit},
+		{"exit", _stab},
 		{"env", _env},
 		{"help", _help},
 		{"history", _history},
